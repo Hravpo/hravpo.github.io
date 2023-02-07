@@ -1,0 +1,24 @@
+.benefits {
+    min-height: 472px;
+    background-color: #F6F6F6;
+    padding: 64px 0 63px 0;
+    
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__icons {
+            width: 940px;
+            &__icon {
+
+            }
+        }
+    }
+    &__header {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #0D0D0D;
+    }
+}
