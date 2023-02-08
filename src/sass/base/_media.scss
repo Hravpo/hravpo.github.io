@@ -1,7 +1,102 @@
-@media (max-width: 767px) {
-    .promo {
-        padding: 0;
+@media (max-width: 991px) {
+    .header {
         padding-right: 20px;
         padding-left: 20px;
-    }   
+        .header__logo {    
+        }
+    }
+    .promo{
+        &__wrapper {
+            padding: 0px 20px;
+        }
+    }
+    .benefits{
+        .benefits__icons {
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .header {
+        padding-right: 15px;
+        padding-left: 15px;
+        .header__official {
+            display: none;    
+        }
+    }
+    .promo {
+        .promo__wrapper {
+            padding: 0px 20px;
+        }
+        .promo__header {
+            font-size: 35px;
+        }
+        .promo__subheader {
+            font-size: 20px;
+        }
+    }
+    .benefits{
+        .benefits__icons {
+            width: 100%;
+            flex-direction: column;
+            align-items:center;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .header{
+        padding-right: 10px;
+        padding-left: 10px;
+        flex-direction: column;
+        .header__logo {
+            width: 150px;
+        }
+        .header__official {
+            display: none;    
+        }
+        .header__phone {
+            font-size: 13px;
+            margin-top: 25px;
+        }
+        .button {
+            width: 120px;
+            font-size: 10px;
+        }
+    }
+    .promo {
+        
+        .promo__wrapper {
+            align-items: center; 
+        }
+        .promo__header {
+            width: 280px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .promo__subheader {
+            display: none;
+        }
+        .promo__icons {
+            width: 100%;
+        }
+        .promo__icon{
+            font-size: 10px;
+        }
+        .promo__link {
+            font-size: 13px;
+        }
+        .button_main {
+            width: 230px;
+            font-size: 13px;
+        }
+    }
+    .benefits{
+        .benefits__header {
+            width: 100%;
+            font-size: 21px;
+        }
+        .benefits__subheader {
+            font-size: 16px;
+        }
+    }
 }
