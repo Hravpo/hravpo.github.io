@@ -2,18 +2,44 @@
     min-height: 472px;
     background-color: #F6F6F6;
     padding: 64px 0 63px 0;
-    
     &__wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
-        &__icons {
+    }
+    &__icons {
             width: 940px;
-            &__icon {
-
-            }
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 66px;
+    }
+    &__icon {
+        width: 270px;
+        text-align: center;
+    }
+    &__subheader {
+        margin-top: 35px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        color: #0D0D0D;
+    }
+    &__descr {
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        color: #0D0D0D;
+        a {
+            text-decoration-line: underline;
+            color: #FF0000;
         }
     }
+        
+    
     &__header {
         font-weight: 700;
         font-size: 30px;
