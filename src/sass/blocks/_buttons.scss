@@ -21,4 +21,11 @@
         height: 58px;
         font-size: 16px;
     }
+    &_mini {
+        width: 135px;
+        height: 44px;
+        background: $main_color;
+        border-radius: 5px;
+        font-size: 14px;
+    }
 }
