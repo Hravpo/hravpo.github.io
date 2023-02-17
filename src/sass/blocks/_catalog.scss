@@ -52,7 +52,6 @@
         padding: 20px 18px;
         border: 2px solid #E8E8E8;
         overflow: hidden;
-        transition: 0.5 all;
         margin-bottom: 19px;
         &__img {
             max-width: 100%;
@@ -88,20 +87,17 @@
                 color: $main_color;
             }
         }
-
         hr {
             margin-top: 19px;
             margin-bottom: 21px;
             background: #E8E8E8;
             border-bottom: none;
         }
-
         &__footer {
             display: flex;  
             justify-content: space-between;
             align-items: center;
         }
-
         &__old-price {
             font-style: normal;
             font-weight: 300;
@@ -110,7 +106,6 @@
             text-decoration-line: line-through;
             color: #555555;
         }
-
         &__price {
             font-style: normal;
             font-weight: 700;
@@ -118,50 +113,46 @@
             line-height: 20px;
             color: #050505;
         }
-
         &__wrapper {
             display: flex;
             width: calc(200% + 40px);
         }
-
         &__content {
             width: 50%;
             margin-right: 0px;
             transform: translateX(-100%);
-            transition: 0.5 all;
+            transition: 0.5s all;
             &_active {
                 transform: translateX(0%);
                 margin-right: 20px;
             }
         }
-
         &__list {
             position: relative;
             width: 50%;
             margin-left: 20px;
             transform: translateX(0%);
             padding-right: 20px;
-            transition: 0.5 all;
+            transition: 0.5s all;
             padding-left: 19px;
             margin-bottom: 0;
             list-style-type: none;
-            
-        a {
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(calc(-50% - 19px));
-            display: block;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 14px;
-            text-align: center;
-            text-decoration: underline;
-            text-transform: uppercase;
-            color: $main_color;
-            &:hover {
+            a {
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(calc(-50% - 19px));
+                display: block;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 14px;
+                text-align: center;
+                text-decoration: underline;
+                text-transform: uppercase;
                 color: $main_color;
-            }}
+                &:hover {
+                    color: $main_color;
+                }}
             &_active {
                 transform: translateX(-100%);
                 margin-left: 0px;
@@ -183,6 +174,6 @@
                 }
             }
         
-            }
         }
     }
+}
