@@ -1,36 +1,4 @@
-@media (max-width: 1140px) {
-    .carousel {
-        min-height: 400px;
-        .tns-item {
-            img {
-                width: 60%;
-                display: flex;
-                justify-content: center;
-                margin: 0 auto;
-            }
-        }
-        .prev {
-            left: 0;
-            left: 25px;
-            border: none;
-            background-color: #fff;
-            img {
-                width: 31px;
-                height: 50px;
-            }
-        }
-        .next {
-            right: 0;
-            right: 66px;
-            border: none;
-            background-color: #fff;
-            img {
-                width: 31px;
-                height: 50px;
-            }
-        }
-    }
-}
+
 @media (max-width: 991px) {
     .header {
         padding-right: 20px;
@@ -41,11 +9,7 @@
             padding: 0px 20px;
         }
     }
-    .benefits{
-        .benefits__icons {
-            width: 100%;
-        }
-    }
+    
     .consultation {
         .title_left {
             font-size: 28px;
@@ -57,42 +21,6 @@
             width: 280px;
         }
     }
-    .carousel {
-        min-height: 400px;
-        .tns-item {
-            img {
-                width: 50%;
-                display: flex;
-                justify-content: center;
-                margin: 0 auto;
-            }
-        }
-        .prev {
-            left: 0;
-            left: 25px;
-            border: none;
-            background-color: #fff;
-            img {
-                width: 31px;
-                height: 50px;
-            }
-        }
-        .next {
-            right: 0;
-            right: 66px;
-            border: none;
-            background-color: #fff;
-            img {
-                width: 31px;
-                height: 50px;
-            }
-        }
-    }
-    .catalog {
-        &__content {
-            justify-content: space-around;
-        }
-   } 
    .review {
     &__content {
         flex-direction: column;
@@ -158,19 +86,8 @@
     .carousel {
         min-height: 300px;
     }
-    .catalog {
-        &__title {
-            font-size: 25px;
-        }
-        &__tabs {
-            margin-right: 10px;
-            margin-left: 10px;
-        }
-        &__tab {
-            font-size: 15px;
-        }
-    } 
 }
+
 @media (max-width: 575px) {
     .header{
         padding-right: 10px;
@@ -242,15 +159,4 @@
             font-size: 14px;
         }
     }
-    .carousel {
-        min-height: 250px;
-    }
-    .catalog {
-        &__title {
-            font-size: 22px;
-        }
-        &__tab {
-            font-size: 13px;
-        }
-    } 
 }

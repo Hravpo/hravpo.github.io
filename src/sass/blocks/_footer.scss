@@ -48,3 +48,26 @@
         border-radius: 100%;
     }
 }
+
+
+@media (max-width: 991px) {
+    .footer {
+        &__info {
+            width: 390px;
+            height: 250px;
+            padding: 40px;
+        }
+        &__addr {
+            font-size: 17px;
+            display: block;
+            text-align: center;
+        }
+        &__phone {
+            font-size: 18px;
+        }
+        &__social-item {
+            width: 46px;
+            height: 46px;
+        }
+    }
+}

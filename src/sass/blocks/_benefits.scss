@@ -48,3 +48,17 @@
         color: #0D0D0D;
     }
 }
+
+
+
+@media (max-width: 991px) {
+    .benefits{
+        &__icons {
+            width: 100%;
+        }
+    
+        &__title {
+            font-size: 25px;
+        }
+    }
+}
