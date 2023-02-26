@@ -9,14 +9,16 @@
         text-transform: uppercase;
         margin-bottom: 60px;
     }
+    &-item__content {
+        a{
+            display: none;
+        }
+    }
     &__content {
         width: 915px;
         display: flex;
         margin: 0 auto;
         margin-top: 60px;
-        a { 
-            display: none;
-        }
     }
     &__text {
         margin-left: 60px;
@@ -87,7 +89,8 @@
             &_active {
                 display: none;
             }
-            a {
+            a { 
+                display: block;
                 text-transform: uppercase;
                 text-align: center;
                 color: $main_color;
@@ -96,6 +99,7 @@
         }
         }   
         &__link {
+            display: block;
             transition: 0.5s all;
             display: block;
             text-transform: uppercase;

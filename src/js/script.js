@@ -83,7 +83,7 @@ logging(3,6); */
           $('.review__link').eq(i).toggleClass('review__link_active');
           $('.review-item__content').eq(i).toggleClass('review-item__content_active');
         })
-      })  
+      })
 
     //Modal
 
