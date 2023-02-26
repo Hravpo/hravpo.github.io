@@ -14,6 +14,9 @@
         display: flex;
         margin: 0 auto;
         margin-top: 60px;
+        a { 
+            display: none;
+        }
     }
     &__text {
         margin-left: 60px;
@@ -42,6 +45,9 @@
     &__photo {
         height: 100%;
     }
+    &__link {
+        display: none;
+    }
 }
 
 
@@ -65,5 +71,45 @@
             text-align: center;
             margin: 0;
         }
-       }
+    }
+}
+
+@media (max-width: 575px) {
+    .review{
+        position: relative;
+        overflow: hidden;  
+        transition: 0.5s all;
+        &-item{
+        transition: 0.5s all;
+        &__content {
+            transform: translateX(0%);
+            display: block;
+            &_active {
+                display: none;
+            }
+            a {
+                text-transform: uppercase;
+                text-align: center;
+                color: $main_color;
+                text-decoration: underline;
+            }
+        }
+        }   
+        &__link {
+            transition: 0.5s all;
+            display: block;
+            text-transform: uppercase;
+            text-align: center;
+            color: $main_color;
+            text-decoration: underline;
+            &:hover {
+                color: $main_color;
+            }
+            &_active{
+                margin-top: 0px;
+                display: none;
+            }
+        }
+
+    }
 }

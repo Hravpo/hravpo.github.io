@@ -76,7 +76,14 @@ logging(3,6); */
             $('.catalog-item__content').eq(i).toggleClass('catalog-item__content_active');
             $('.catalog-item__list').eq(i).toggleClass('catalog-item__list_active');
         })
-      })
+          })
+      $('.review__content').each(function(i) {
+        $(this).on('click', function(e){
+          e.preventDefault();
+          $('.review__link').eq(i).toggleClass('review__link_active');
+          $('.review-item__content').eq(i).toggleClass('review-item__content_active');
+        })
+      })  
 
     //Modal
 
